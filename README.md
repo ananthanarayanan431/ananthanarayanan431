@@ -1,5 +1,7 @@
 [![trophy](https://github-profile-trophy.vercel.app/ananthanarayanan431ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
 
+[![trophy](https://github-profile-trophy.vercel.app/ananthanarayanan431/ananthanarayanan431=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+
 - 👋 Hi, I’m @ananthanarayanan431
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning ...
