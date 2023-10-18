@@ -1,4 +1,4 @@
-[![trophy](https://github-profile-trophy.vercel.app/?ananthanarayanan431=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/ananthanarayanan431=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
 
 - 👋 Hi, I’m @ananthanarayanan431
 - 👀 I’m interested in ...
