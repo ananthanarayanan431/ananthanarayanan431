@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ananthanarayanan431" alt="ananthanarayanan431" /></a> </p>
 
-- 🔭 I’m currently working on [Generative AI](https://github.com/ananthanarayanan431/Langchain-Projects-LLM)
+- 🔭 I’m currently working on [Shade6](https://shade6.com/)
 
 - 🌱 I’m currently learning **Langchain, Generative AI**
 
