@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ananthanarayanan431" alt="ananthanarayanan431" /></a> </p>
 
-- 🔭 I’m currently working on [Shade6](https://shade6.com/)
+- 🔭 I’m currently working on [Anachroni](https://www.anachroni.co/)
 
 - 🌱 I’m currently learning **Langchain, Generative AI**
 
@@ -13,9 +13,9 @@
 
 - 🤝 I’m looking for help with **Fine-Tuning-> Codellama**
 
-- 👨‍💻 All of my projects are available at [https://github.com/ananthanarayanan431/Langchain-Projects-LLM](https://github.com/ananthanarayanan431/Langchain-Projects-LLM)
+- 👨‍💻 All of my projects are available at [ananthanarayanan431/Langchain-Projects-LLM](https://github.com/ananthanarayanan431/Langchain-Projects-LLM)
 
-- 📝 I regularly write articles on [https://www.linkedin.com/in/rananthanarayananofficial/](https://www.linkedin.com/in/rananthanarayananofficial/)
+- 📝 I regularly write articles on [linkedin.com/in/rananthanarayananofficial/](https://www.linkedin.com/in/rananthanarayananofficial/)
 
 - 💬 Ask me about **LLM, Fine-Tuning, Langchain**
 
