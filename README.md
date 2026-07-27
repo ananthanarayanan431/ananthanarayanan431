@@ -1,8 +1,10 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Anantha%20Narayanan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=GenAI%20%2F%20Agent%20Engineer%20%E2%80%94%20Agents,%20RAG%20%26%20LLM%20Systems&descAlignY=58&descSize=20" alt="header banner"/>
+
 <div align="center">
 
-<img src="https://github-readme-utils.vercel.app/api/gif/anime" height="200" alt="waving anime gif"/>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=4A9DFF&center=true&vCenter=true&width=600&lines=Building+Autonomous+Agents;RAG+%2B+MCP+%2B+A2A+Systems;Currently+%40+Agent+Drops;Always+Shipping+Something+New" alt="Typing SVG" /></a>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&pause=1000&color=4A9DFF&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Anantha+Narayanan;GenAI+%2F+Agent+Engineer;Building+RAG%2C+MCP+%26+A2A+Systems;Currently+%40+Agent+Drops" alt="Typing SVG" /></a>
+<img src="https://github-readme-utils.vercel.app/api/gif/anime" height="180" alt="waving anime gif"/>
 
 </div>
 
@@ -14,8 +16,18 @@ I'm an **AI/GenAI Engineer** who spends most of my time building autonomous agen
 
 - 🔭 Currently building **[market-research-agent](https://github.com/ananthanarayanan431/market-research-agent)** — an autonomous market research agent
 - 🌱 Exploring **MCP (Model Context Protocol)** and **A2A (Agent-to-Agent)** interoperability
+- 🧩 79 public repos spanning GenAI agents, RAG systems, full-stack apps, and hands-on ML fundamentals
+- ✍️ I write about what I build on [Medium](https://medium.com/@ananthanarayanan431)
 - 📫 Reach me on any of the socials below
 - ⚡ Fun fact: my most-starred repo is a LangChain project collection with 100+ ⭐
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=ananthanarayanan431&label=Profile%20Views&color=4A9DFF&style=for-the-badge)
+![Followers](https://img.shields.io/github/followers/ananthanarayanan431?label=Followers&style=for-the-badge&color=4A9DFF)
+![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fananthanarayanan431&label=Public%20Repos&query=%24.public_repos&color=4A9DFF&style=for-the-badge)
+
+</div>
 
 <br/>
 
@@ -75,17 +87,31 @@ I'm an **AI/GenAI Engineer** who spends most of my time building autonomous agen
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ananthanarayanan431&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ananthanarayanan431&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=ananthanarayanan431&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" />
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=ananthanarayanan431&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=ananthanarayanan431&theme=tokyonight&hide_border=false" />
 
 </div>
 
-## 🏆 GitHub Trophies
+## 📈 Activity Graph
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=ananthanarayanan431&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ananthanarayanan431&theme=tokyo-night&hide_border=false&area=true" />
+</div>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ananthanarayanan431/ananthanarayanan431/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ananthanarayanan431/ananthanarayanan431/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ananthanarayanan431/ananthanarayanan431/output/github-contribution-grid-snake.svg" />
+</picture>
+
+<sub>Auto-regenerated daily by <a href="https://github.com/ananthanarayanan431/ananthanarayanan431/actions/workflows/snake.yml">GitHub Actions</a> from my real contribution graph</sub>
+
 </div>
 
 ## ✍️ Random Dev Quote
@@ -112,8 +138,8 @@ I'm an **AI/GenAI Engineer** who spends most of my time building autonomous agen
 
 <div align="center">
 
-[![](https://visitcount.itsvg.in/api?id=ananthanarayanan431&icon=0&color=0)](https://visitcount.itsvg.in)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=100&section=footer" alt="footer banner"/>
 
-<sub>Proudly crafted with ❤️ — <a href="https://gprm.itsvg.in">GPRM</a></sub>
+<sub>Thanks for stopping by — <b>⭐ star a repo</b> if something here was useful to you!</sub>
 
 </div>
