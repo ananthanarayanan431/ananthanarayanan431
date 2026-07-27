@@ -1,10 +1,6 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027%2C50:203A43%2C100:2C5364&height=220&section=header&text=Anantha%20Narayanan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=GenAI%20%2F%20Agent%20Engineer%20%E2%80%94%20Agents%2C%20RAG%20%26%20LLM%20Systems&descAlignY=58&descSize=20" alt="header banner"/>
-
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=4A9DFF&center=true&vCenter=true&width=600&lines=Building+Autonomous+Agents;RAG+%2B+MCP+%2B+A2A+Systems;Currently+%40+Agent+Drops;Always+Shipping+Something+New" alt="Typing SVG" /></a>
-
-<img src="https://github-readme-utils.vercel.app/api/gif/anime" height="180" alt="waving anime gif"/>
+<img width="100%" src="assets/neofetch.png" alt="neofetch-style profile card"/>
 
 </div>
 
