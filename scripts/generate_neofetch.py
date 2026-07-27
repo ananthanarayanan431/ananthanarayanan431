@@ -1,6 +1,7 @@
 """Generate a neofetch-style profile card PNG from the GitHub avatar.
 
 Run once (not wired into CI): python3 scripts/generate_neofetch.py
+Requires: pip install rembg onnxruntime (used to cut the subject out of its background)
 Writes assets/neofetch.png, which the README embeds directly.
 """
 
@@ -8,6 +9,7 @@ import io
 import subprocess
 
 from PIL import Image, ImageDraw, ImageFont
+from rembg import remove
 
 USERNAME = "ananthanarayanan431"
 AVATAR_URL = f"https://github.com/{USERNAME}.png?size=460"
@@ -35,15 +37,19 @@ def fetch_avatar():
     data = subprocess.run(
         ["curl", "-sL", AVATAR_URL], check=True, capture_output=True
     ).stdout
-    return Image.open(io.BytesIO(data)).convert("RGB")
+    photo = Image.open(io.BytesIO(data)).convert("RGB")
+    return remove(photo)  # RGBA, background made transparent
 
 
 def draw_ascii_art(draw, avatar, origin_x, origin_y, font):
-    small = avatar.convert("L").resize((ART_COLS, ART_ROWS), Image.LANCZOS)
+    small = avatar.resize((ART_COLS, ART_ROWS), Image.LANCZOS)
     pixels = small.load()
     for y in range(ART_ROWS):
         for x in range(ART_COLS):
-            lum = pixels[x, y] / 255
+            r, g, b, a = pixels[x, y]
+            if a < 128:
+                continue  # background was removed - leave this cell blank
+            lum = (0.299 * r + 0.587 * g + 0.114 * b) / 255
             idx = min(len(ASCII_RAMP) - 1, int(lum * (len(ASCII_RAMP) - 1) * 1.15))
             ch = ASCII_RAMP[idx]
             if ch != " ":
