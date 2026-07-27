@@ -14,22 +14,19 @@ AVATAR_URL = f"https://github.com/{USERNAME}.png?size=460"
 OUT_PATH = "assets/neofetch.png"
 FONT_PATH = "/System/Library/Fonts/Menlo.ttc"
 
-BG = (17, 20, 28)
-TITLEBAR = (22, 25, 37)
-ACCENT = (74, 157, 255)  # matches the #4A9DFF accent used elsewhere in the README
-TEXT = (200, 211, 245)
-MUTED = (86, 95, 137)
-DOT_RED, DOT_YEL, DOT_GRN = (255, 95, 86), (255, 189, 46), (39, 201, 63)
-PALETTE = [
-    (15, 32, 39), (32, 58, 67), (44, 83, 100), (74, 157, 255),
-    (86, 95, 137), (200, 211, 245), (39, 201, 63), (255, 189, 46),
-]
+# Strictly grayscale palette - no hue anywhere in the image.
+BG = (10, 10, 10)
+TITLEBAR = (24, 24, 24)
+ACCENT = (245, 245, 245)
+TEXT = (170, 170, 170)
+MUTED = (75, 75, 75)
+DOT = (90, 90, 90)
 
 ASCII_RAMP = " .:-=+*#%@"
 ART_COLS, ART_ROWS = 50, 27
 CELL_W, CELL_H = 7, 13
 
-CANVAS_W, CANVAS_H = 1100, 560
+CANVAS_W, CANVAS_H = 1100, 620
 TITLEBAR_H = 34
 MARGIN_X, MARGIN_Y = 40, 60
 
@@ -42,16 +39,17 @@ def fetch_avatar():
 
 
 def draw_ascii_art(draw, avatar, origin_x, origin_y, font):
-    small = avatar.resize((ART_COLS, ART_ROWS), Image.LANCZOS)
+    small = avatar.convert("L").resize((ART_COLS, ART_ROWS), Image.LANCZOS)
     pixels = small.load()
     for y in range(ART_ROWS):
         for x in range(ART_COLS):
-            r, g, b = pixels[x, y]
-            lum = (0.299 * r + 0.587 * g + 0.114 * b) / 255
+            lum = pixels[x, y] / 255
             idx = min(len(ASCII_RAMP) - 1, int(lum * (len(ASCII_RAMP) - 1) * 1.15))
             ch = ASCII_RAMP[idx]
             if ch != " ":
-                draw.text((origin_x + x * CELL_W, origin_y + y * CELL_H), ch, font=font, fill=(r, g, b))
+                # brighter pixels render as lighter gray, matching the source contrast
+                shade = int(60 + lum * 195)
+                draw.text((origin_x + x * CELL_W, origin_y + y * CELL_H), ch, font=font, fill=(shade, shade, shade))
 
 
 def draw_stat_line(draw, mono, x, y, label, value, dot_target_px=205):
@@ -70,9 +68,9 @@ def main():
     draw = ImageDraw.Draw(img)
 
     draw.rectangle([0, 0, CANVAS_W, TITLEBAR_H], fill=TITLEBAR)
-    for i, color in enumerate([DOT_RED, DOT_YEL, DOT_GRN]):
+    for i in range(3):
         cx = 20 + i * 22
-        draw.ellipse([cx - 6, TITLEBAR_H // 2 - 6, cx + 6, TITLEBAR_H // 2 + 6], fill=color)
+        draw.ellipse([cx - 6, TITLEBAR_H // 2 - 6, cx + 6, TITLEBAR_H // 2 + 6], outline=DOT, width=2)
     title_font = ImageFont.truetype(FONT_PATH, 14)
     draw.text((CANVAS_W // 2, TITLEBAR_H // 2), f"anantha@{USERNAME}: ~", font=title_font, fill=MUTED, anchor="mm")
 
@@ -106,17 +104,16 @@ def main():
         ("Public Repos", "79"),
         ("Top Starred", "Langchain-Projects-LLM (100+)"),
         ("", ""),
-        ("Connect", "LinkedIn / GitHub / Medium / X"),
+        ("Email", "ananthanaryanan431@gmail.com"),
+        ("GitHub", "ananthanarayanan431"),
+        ("LinkedIn", "rananthanarayananofficial"),
+        ("Instagram", "anantha.narayanan_"),
+        ("X", "@AnanthaNara2810"),
     ]
     for label, value in rows:
         if label:
             draw_stat_line(draw, mono, text_x, y, label, value)
         y += 24
-
-    y += 6
-    for i, color in enumerate(PALETTE):
-        sx = text_x + i * 26
-        draw.rectangle([sx, y, sx + 20, y + 20], fill=color)
 
     img.save(OUT_PATH)
     print(f"wrote {OUT_PATH} ({CANVAS_W}x{CANVAS_H})")
