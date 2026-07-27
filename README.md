@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=Anantha%20Narayanan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=GenAI%20%2F%20Agent%20Engineer%20%E2%80%94%20Agents,%20RAG%20%26%20LLM%20Systems&descAlignY=58&descSize=20" alt="header banner"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027%2C50:203A43%2C100:2C5364&height=220&section=header&text=Anantha%20Narayanan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=GenAI%20%2F%20Agent%20Engineer%20%E2%80%94%20Agents%2C%20RAG%20%26%20LLM%20Systems&descAlignY=58&descSize=20" alt="header banner"/>
 
 <div align="center">
 
@@ -25,7 +25,6 @@ I'm an **AI/GenAI Engineer** who spends most of my time building autonomous agen
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ananthanarayanan431&label=Profile%20Views&color=4A9DFF&style=for-the-badge)
 ![Followers](https://img.shields.io/github/followers/ananthanarayanan431?label=Followers&style=for-the-badge&color=4A9DFF)
-![Public Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fananthanarayanan431&label=Public%20Repos&query=%24.public_repos&color=4A9DFF&style=for-the-badge)
 
 </div>
 
@@ -138,7 +137,7 @@ I'm an **AI/GenAI Engineer** who spends most of my time building autonomous agen
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=100&section=footer" alt="footer banner"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364%2C50:203A43%2C100:0F2027&height=100&section=footer" alt="footer banner"/>
 
 <sub>Thanks for stopping by — <b>⭐ star a repo</b> if something here was useful to you!</sub>
 
