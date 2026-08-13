@@ -1,11 +1,3 @@
-<div align="center">
-
-<img width="100%" src="assets/neofetch.png" alt="neofetch-style profile card"/>
-
-</div>
-
-<br/>
-
 ## 🧠 About Me
 
 I'm an **AI/GenAI Engineer** who spends most of my time building autonomous agents, RAG pipelines, and multi-agent systems — currently at **Agent Drops**. I like taking new protocols and frameworks (MCP, A2A, LangGraph, DSPy) apart to see how they work, then shipping small, focused projects with what I learn.
