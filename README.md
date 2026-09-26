@@ -1,12 +1,13 @@
 ## 🧠 About Me
 
-I'm an **AI/GenAI Engineer** who spends most of my time building autonomous agents, RAG pipelines, and multi-agent systems — currently at **Agent Drops**. I like taking new protocols and frameworks (MCP, A2A, LangGraph, DSPy) apart to see how they work, then shipping small, focused projects with what I learn.
+I'm a **Product Engineer at [Oraczen](https://oraczen.ai)** in Hyderabad, building production AI systems: ReAct and multi-agent architectures with LangGraph, RAG pipelines, LLM-as-a-Judge evaluation, and real-time voice agents over WebRTC. Before that I was a Software Engineer at Launch Ventures. I like taking new protocols and frameworks (MCP, A2A, LangGraph, DSPy) apart to see how they work, then shipping small, focused projects with what I learn.
 
-- 🔭 Currently building **[market-research-agent](https://github.com/ananthanarayanan431/market-research-agent)** — an autonomous market research agent
-- 🌱 Exploring **MCP (Model Context Protocol)** and **A2A (Agent-to-Agent)** interoperability
-- 🧩 79 public repos spanning GenAI agents, RAG systems, full-stack apps, and hands-on ML fundamentals
+- 🔭 Currently building **[Promptly](https://github.com/ananthanarayanan431/promptly)**, a prompt optimization platform where a council of LLMs rewrites, peer-reviews, and synthesizes prompts
+- 🌱 Exploring agent evaluation, voice agents, and **MCP / A2A** interoperability
+- 🧩 85 public repos spanning GenAI agents, RAG systems, full-stack apps, and hands-on ML fundamentals
 - ✍️ I write about what I build on [Medium](https://medium.com/@ananthanarayanan431)
-- 📫 Reach me on any of the socials below
+- 🌐 More about me at **[ananthanarayanan.com](https://ananthanarayanan.com)**
+- 📫 Reach me at [me@ananthanarayanan.com](mailto:me@ananthanarayanan.com) or on any of the socials below
 - ⚡ Fun fact: my most-starred repo is a LangChain project collection with 100+ ⭐
 
 <div align="center">
@@ -22,10 +23,11 @@ I'm an **AI/GenAI Engineer** who spends most of my time building autonomous agen
 
 | Project | Description |
 |---|---|
-| [market-research-agent](https://github.com/ananthanarayanan431/market-research-agent) | Autonomous agent for automated market research |
-| [a2a-mcp-project](https://github.com/ananthanarayanan431/a2a-mcp-project) | Agent-to-Agent communication over MCP |
-| [production-rag-application](https://github.com/ananthanarayanan431/production-rag-application) | Production-grade Retrieval-Augmented Generation app |
-| [cognee-project](https://github.com/ananthanarayanan431/cognee-project) | **DebateMind** — memory-driven reasoning agent |
+| [promptly](https://github.com/ananthanarayanan431/promptly) | **Promptly**: a 4-model council optimizes, blind-reviews, and synthesizes prompts, plus GEPA and SkillOpt optimizers |
+| [finance-advisory-agent](https://github.com/ananthanarayanan431/finance-advisory-agent) | Multi-agent market and financial research that turns a plain-English question into a cited report from web and SEC-filing sources |
+| [production-rag-application](https://github.com/ananthanarayanan431/production-rag-application) | Apple Support Bot: production RAG with FastAPI, LangGraph, PageIndex, and Ragas evals |
+| [ticket-assignment](https://github.com/ananthanarayanan431/ticket-assignment) | LangGraph support-ticket triage that classifies, then auto-resolves, drafts for review, or escalates |
+| [cognee-project](https://github.com/ananthanarayanan431/cognee-project) | **DebateMind**: an AI debate coach with per-user knowledge-graph memory (Cognee + Neo4j) |
 
 <br/>
 
@@ -37,7 +39,7 @@ I'm an **AI/GenAI Engineer** who spends most of my time building autonomous agen
 | [**deepresearch-agent**](https://github.com/ananthanarayanan431/deepresearch-agent) | ![Stars](https://img.shields.io/github/stars/ananthanarayanan431/deepresearch-agent?style=flat-square&label=) | Deep-research style autonomous agent |
 | [**CrewAI---Projects**](https://github.com/ananthanarayanan431/CrewAI---Projects) | ![Stars](https://img.shields.io/github/stars/ananthanarayanan431/CrewAI---Projects?style=flat-square&label=) | Multi-agent projects built with CrewAI |
 | [**LangGraph-Projects**](https://github.com/ananthanarayanan431/LangGraph-Projects) | ![Stars](https://img.shields.io/github/stars/ananthanarayanan431/LangGraph-Projects?style=flat-square&label=) | Multi-agent AI framework built with LangGraph |
-| [**promptly**](https://github.com/ananthanarayanan431/promptly) | ![Stars](https://img.shields.io/github/stars/ananthanarayanan431/promptly?style=flat-square&label=) | Prompt engineering / management tool |
+| [**promptly**](https://github.com/ananthanarayanan431/promptly) | ![Stars](https://img.shields.io/github/stars/ananthanarayanan431/promptly?style=flat-square&label=) | Prompt optimization platform with a multi-LLM council |
 | [**Gemini-ChatBot-LLM**](https://github.com/ananthanarayanan431/Gemini-ChatBot-LLM) | ![Stars](https://img.shields.io/github/stars/ananthanarayanan431/Gemini-ChatBot-LLM?style=flat-square&label=) | Chatbot built on Google's Gemini model |
 
 <br/>
@@ -113,6 +115,8 @@ I'm an **AI/GenAI Engineer** who spends most of my time building autonomous agen
 
 <div align="center">
 
+[![Website](https://img.shields.io/badge/Website-000000?logo=googlechrome&logoColor=white)](https://ananthanarayanan.com)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:me@ananthanarayanan.com)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/anantha.narayanan_)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/rananthanarayananofficial)
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@ananthanarayanan431)
