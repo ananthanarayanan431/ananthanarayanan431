@@ -2,9 +2,10 @@
 
 I'm a **Product Engineer at [Oraczen](https://oraczen.ai)** in Hyderabad, building production AI systems: ReAct and multi-agent architectures with LangGraph, RAG pipelines, LLM-as-a-Judge evaluation, and real-time voice agents over WebRTC. Before that I was a Software Engineer at Launch Ventures. I like taking new protocols and frameworks (MCP, A2A, LangGraph, DSPy) apart to see how they work, then shipping small, focused projects with what I learn.
 
-- 🔭 Currently building **[Promptly](https://github.com/ananthanarayanan431/promptly)**, a prompt optimization platform where a council of LLMs rewrites, peer-reviews, and synthesizes prompts
-- 🌱 Exploring agent evaluation, voice agents, and **MCP / A2A** interoperability
-- 🧩 85 public repos spanning GenAI agents, RAG systems, full-stack apps, and hands-on ML fundamentals
+- 🏗️ At work I've shipped a ReAct Text-to-SQL agent, a deep-research multi-agent system, and WebRTC voice agents with long-term memory
+- 🔭 Currently building **[MentorAgents](https://github.com/ananthanarayanan431/mentoragent)**, chat with AI mentors modelled on real experts, alongside **[Promptly](https://github.com/ananthanarayanan431/promptly)**
+- 🌱 Exploring knowledge-graph memory (FalkorDB, Cognee), Google's ADK, and medallion data platforms on ClickHouse
+- 🧩 90 public repos spanning GenAI agents, RAG systems, full-stack apps, and hands-on ML fundamentals
 - ✍️ I write about what I build on [Medium](https://medium.com/@ananthanarayanan431)
 - 🌐 More about me at **[ananthanarayanan.com](https://ananthanarayanan.com)**
 - 📫 Reach me at [me@ananthanarayanan.com](mailto:me@ananthanarayanan.com) or on any of the socials below
@@ -24,10 +25,11 @@ I'm a **Product Engineer at [Oraczen](https://oraczen.ai)** in Hyderabad, buildi
 | Project | Description |
 |---|---|
 | [promptly](https://github.com/ananthanarayanan431/promptly) | **Promptly**: a 4-model council optimizes, blind-reviews, and synthesizes prompts, plus GEPA and SkillOpt optimizers |
-| [finance-advisory-agent](https://github.com/ananthanarayanan431/finance-advisory-agent) | Multi-agent market and financial research that turns a plain-English question into a cited report from web and SEC-filing sources |
+| [mentoragent](https://github.com/ananthanarayanan431/mentoragent) | **MentorAgents**: AI mentors that answer from a memory of a real expert's public work. FastAPI + LangGraph RAG, React 19, MongoDB Atlas vector search |
+| [FalkorDB-project](https://github.com/ananthanarayanan431/FalkorDB-project) | Exit-interview knowledge transfer: a FalkorDB graph finds what only the leaver knows and builds a handover plan for each receiver |
+| [medallian-architecuture](https://github.com/ananthanarayanan431/medallian-architecuture) | Bronze → silver → gold data platform on Postgres and ClickHouse, with a FastAPI + React console |
 | [production-rag-application](https://github.com/ananthanarayanan431/production-rag-application) | Apple Support Bot: production RAG with FastAPI, LangGraph, PageIndex, and Ragas evals |
-| [ticket-assignment](https://github.com/ananthanarayanan431/ticket-assignment) | LangGraph support-ticket triage that classifies, then auto-resolves, drafts for review, or escalates |
-| [cognee-project](https://github.com/ananthanarayanan431/cognee-project) | **DebateMind**: an AI debate coach with per-user knowledge-graph memory (Cognee + Neo4j) |
+| [building-deskbreak](https://github.com/ananthanarayanan431/building-deskbreak) | **DeskBreak**: a Swift macOS menu bar app for water and walk reminders, installable with Homebrew |
 
 <br/>
 
@@ -40,6 +42,7 @@ I'm a **Product Engineer at [Oraczen](https://oraczen.ai)** in Hyderabad, buildi
 | [**CrewAI---Projects**](https://github.com/ananthanarayanan431/CrewAI---Projects) | ![Stars](https://img.shields.io/github/stars/ananthanarayanan431/CrewAI---Projects?style=flat-square&label=) | Multi-agent projects built with CrewAI |
 | [**LangGraph-Projects**](https://github.com/ananthanarayanan431/LangGraph-Projects) | ![Stars](https://img.shields.io/github/stars/ananthanarayanan431/LangGraph-Projects?style=flat-square&label=) | Multi-agent AI framework built with LangGraph |
 | [**promptly**](https://github.com/ananthanarayanan431/promptly) | ![Stars](https://img.shields.io/github/stars/ananthanarayanan431/promptly?style=flat-square&label=) | Prompt optimization platform with a multi-LLM council |
+| [**cognee-project**](https://github.com/ananthanarayanan431/cognee-project) | ![Stars](https://img.shields.io/github/stars/ananthanarayanan431/cognee-project?style=flat-square&label=) | **DebateMind**: an AI debate coach with per-user knowledge-graph memory (Cognee + Neo4j), built for the WeMakeDevs × Cognee Hackathon |
 | [**Gemini-ChatBot-LLM**](https://github.com/ananthanarayanan431/Gemini-ChatBot-LLM) | ![Stars](https://img.shields.io/github/stars/ananthanarayanan431/Gemini-ChatBot-LLM?style=flat-square&label=) | Chatbot built on Google's Gemini model |
 
 <br/>
@@ -48,7 +51,7 @@ I'm a **Product Engineer at [Oraczen](https://oraczen.ai)** in Hyderabad, buildi
 
 **Languages**
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=databricks&logoColor=white)
 
 **GenAI / Agents / ML**
 
@@ -56,15 +59,15 @@ I'm a **Product Engineer at [Oraczen](https://oraczen.ai)** in Hyderabad, buildi
 
 **Backend**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Celery](https://img.shields.io/badge/celery-%23a9cc54.svg?style=for-the-badge&logo=celery&logoColor=ddf4a4) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 
 **Frontend**
 
-![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
 **Databases**
 
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black) ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 **DevOps / Cloud / Tools**
 
